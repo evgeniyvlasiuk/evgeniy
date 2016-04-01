@@ -1,0 +1,135 @@
+body{
+    background: #F2F2F2;
+}
+.nav{margin-top: 15px;}
+.nav li{
+    overflow: hidden;
+	text-decoration: none;
+	color: #000000;
+    font-family: sans-serif;
+    display: inline-block;
+	width: 110px;
+	height: 20px;
+    font-size: 14px;
+	text-align: center;
+	line-height: 20px;
+	padding: 0;
+	margin: 0;
+}
+.logo{
+    margin-top: 30px;
+    font-size: 18px;
+}
+.new{
+    height: 60px;
+  text-align: right;
+    
+}
+.im{
+  
+    margin-top: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #333;
+}
+.head{
+    font-size: 30px;
+    margin-top: 55px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+.images:first-child{
+    padding-left: 0;
+    padding-top: 210px;
+    text-align: center;
+    background: url("1.png");
+}
+.images{
+    padding-left: 35px;
+    padding-top: 28px;
+    font-size: 18px; 
+    height: 340px;
+    width: 340px;
+    background: url("2.png");
+    border: hidden;
+    margin: 25px;
+}
+.button{
+    height: 40px;
+    width: 270px;
+   margin-top: 210px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #000;
+}
+.button:hover{
+    cursor: pointer;
+}
+.button:active{
+    background: #DBDBDB;
+}
+.foot{
+    font-size: 18px;
+    padding-left: 30px;
+    margin-top: 20px;
+    height: 300px;
+    display: inline-block;
+    border-color: #333;
+}
+.menu li{
+    text-decoration: none;
+	color: #707070;
+    font-family: sans-serif;
+    display: block;
+	height: 35px;
+    font-size: 14px;
+	line-height: 35px;
+	padding: 0;
+	margin: 0;
+    width: 150px;
+}
+.sub{
+   
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 14px;
+    height: 50px;
+    width: 270px;
+    line-height: 50px;
+    background: #D6D6D6;
+    margin-left: 10px;
+}
+.copy{
+    
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #ADADAD;
+    margin-top: 40px;
+}
+.find input{
+    height: 45px;
+    margin-left: 10px;
+    width: 270px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+table{
+    margin-top: 30px;
+    margin-left: 15px;
+    float: left;
+    font-style: italic;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+table td:last-child{
+    font-size: 12px;
+    
+    color: #848484;
+}
+
