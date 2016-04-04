@@ -5,116 +5,143 @@
 	<title>My Collections 2</title>
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="dropdown.js"></script>
 </head>
 <body>
 <div class="container">
     <div class="row">
-        <div class="col-xs-12 col-sm-3 col-lg-3 logo">PoeTree</div>
-        <div class="col-xs-12 col-sm-6 col-lg-6 nav">
-			<ul>
+    <div class="col-xs-12 col-sm-3 col-lg-3 logo">PoeTree</div>
+    <div class="col-xs-12 col-sm-6 col-lg-7 nav">
+	<ul>
     <li><a href=""></a>Explore
     <li><a href=""></a>My Poems
     <li class="active"><a href=""></a>Collections
-    <li><a href=""></a>Find
-    </ul>
-		</div>
-        <div class="col-xs-12 col-sm-3 col-lg-3 new">+ Add Poem<img class="im" src="32.jpg"></img></div>
+<li class="find1">
+    <img src="tool.png">Find<input type="text">
+</li>
+</ul>
+	</div>
+    <div class="col-xs-12 col-sm-3 col-lg-2 new"><p>+ Add Poem</p>
+			<img src="32.jpg"></img>
+			<div class="img2">
+			<a href="javascript:PopUpShow()"><img  src="icon.png"></img></a></div>
+			<div class="b-popup" id="popup1">
+    <div class="b-popup-content">
+    <a href="javascript:PopUpHide()">En</a>
+	 <a href="javascript:PopUpHide()">Ua</a>
+	 <a href="javascript:PopUpHide()">Ru</a>
     </div>
-		<div class="head">Collections</div>
-		<div class="row">
-		
-			<div class="images col-xs-12 col-sm-4 col-lg-4">Create new collection</div>
-			<div class="images col-xs-12 col-sm-4 col-lg-4">American beatnik poets
-			<div class="button">Follow Board</div>
-			</div>
-			<div class="images col-xs-12 col-sm-4 col-lg-4">Ukrainian beatnik poets
-			<div class="button">Follow Board</div>
-			</div>
-			<div class="images col-xs-12 col-sm-4 col-lg-4">American beatnik poets
-			<div class="button">Follow Board</div>
-			</div>
-			<div class="images col-xs-12 col-sm-4 col-lg-4">American beatnik poets
-			<div class="button">Follow Board</div>
-			</div>
-			<div class="images col-xs-12 col-sm-4 col-lg-4">American beatnik poets
-			<div class="button">Follow Board</div>
-			</div>
-			<div class="images col-xs-12 col-sm-4 col-lg-4">American beatnik poets
-			<div class="button">Follow Board</div>
-			</div>
-			<div class="images col-xs-12 col-sm-4 col-lg-4">American beatnik poets
-			<div class="button">Follow Board</div>
-			</div>
-			<div class="images col-xs-12 col-sm-4 col-lg-4">American beatnik poets
-			<div class="button">Follow Board</div>
-			</div>
-		
+</div>
+   </div>
+   </div>
+<div class="head">Collections</div>
+	<div class="row">
+		<div class="images col-xs-12 col-sm-4 col-lg-4">
+		<div class="button1">+</div>Create new collection
+	    </div>
+		<div class="images col-xs-12 col-sm-4 col-lg-4">American beatnik poets
+		<p><img src="library.png">  1177 Poems<img src="internet.png">  Public</p>
+		<div class="button">Follow Board</div>
 		</div>
-		<div class="row">
-			
-				<div class="foot col-xs-12 col-sm-4 col-lg-4">PoeTree - find best poems
-				<div class="menu">
-					<ul>
-						<li>About us</li>
-						<li>Legal</li>
-						<li>Advertise</li>
-						<li>Help</li>
-						<li>Mobile version</li>
-					</ul>
-				</div>
-			
-				
-				</div>
-				<div class="foot col-xs-12 col-sm-4 col-lg-4">Receive best poems daily
-				<div class="find"> <input type="text" ></div>
-					<div class="sub">Subscribe</div>
-						<div class="copy">@2016 | Oh! This day!</div>
-				</div>
-				<div class="foot col-xs-12 col-sm-4 col-lg-4"><p>Tags to explore</p>
-				<table>
-                  <tr>
-               <td>Romantic</td>
-			    <td>1346</td>
-				
-               </tr>
-				<tr>
-               <td>Advanture</td>
-			    <td>72</td>
-				
-               </tr><tr>
-               <td>Historical</td>
-			    <td>833</td>
-				
-               </tr><tr>
-               <td>School</td>
-			    <td>134</td>
-				 
-				
-               </tr>
-                </table>
-				<table>
-                  <tr>
-              
-				 <td>Love</td>
-				  <td>23</td>
-               </tr>
-				<tr>
-          
-				 <td>Heroes</td>
-				  <td>2</td>
-               </tr><tr>
-              
-				 <td>Ethnik</td>
-				  <td>40</td>
-               </tr><tr>
-               
-				 <td>See all tags</td>
-				
-               </tr>
-                </table>
-				</div>
-		
+		<div class="images col-xs-12 col-sm-4 col-lg-4">Ukrainian beatnik poets
+		<p><img src="library.png">  1177 Poems<img src="internet.png">  Public</p>
+		<div class="button">Follow Board</div>
 		</div>
+		<div class="images col-xs-12 col-sm-4 col-lg-4">American beatnik poets
+		<p><img src="library.png">  1177 Poems<img src="internet.png">  Public</p>
+		<div class="button">Follow Board</div>
+		</div>
+		<div class="images col-xs-12 col-sm-4 col-lg-4">American beatnik poets
+		<p><img src="library.png">  1177 Poems<img src="internet.png">  Public</p>
+	    <div class="button">Follow Board</div>
+		</div>
+		<div class="images col-xs-12 col-sm-4 col-lg-4">American beatnik poets
+		<p><img src="library.png">  1177 Poems<img src="internet.png">  Public</p>
+		<div class="button">Follow Board</div>
+		</div>
+		<div class="images col-xs-12 col-sm-4 col-lg-4">American beatnik poets
+		<p><img src="library.png">  1177 Poems<img src="internet.png">  Public</p>
+		<div class="button">Follow Board</div>
+		</div>
+		<div class="images col-xs-12 col-sm-4 col-lg-4">American beatnik poets
+		<p><img src="library.png">  1177 Poems<img src="internet.png">  Public</p>
+		<div class="button">Follow Board</div>
+		</div>
+		<div class="images col-xs-12 col-sm-4 col-lg-4">American beatnik poets
+		<p><img src="library.png">  1177 Poems<img src="internet.png">  Public</p>
+		<div class="button">Follow Board</div>
+		</div>
+		</div>
+<div class="row">
+	<div class="foot col-xs-12 col-sm-4 col-lg-4">PoeTree - find best poems
+	<div class="menu">
+		<ul>
+		<li>About us</li>
+		<li>Legal</li>
+		<li>Advertise</li>
+		<li>Help</li>
+		<li>Mobile version</li>
+		</ul>
+	</div>
+	<div class="soc-seti">
+	<img src="google.png">
+	<img src="twit.png">
+	<img src="face.png">
+	</div>
+</div>
+	<div class="foot col-xs-12 col-sm-4 col-lg-4">Receive best poems daily
+	<div class="find"> <input type="text" placeholder="example@gmail.com"></div>
+	<div class="sub">Subscribe</div>
+	<div class="copy">@2016 | Oh! This day!</div>
+	</div>
+	<div class="foot col-xs-12 col-sm-4 col-lg-4"><p>Tags to explore</p>
+	<table>
+    <tr>
+    <td>Romantic</td>
+	<td>1346</td>
+	</tr>
+	<tr>
+    <td>Advanture</td>
+	<td>72</td>
+	</tr>
+	<tr>
+    <td>Historical</td>
+	<td>833</td>
+	</tr>
+	<tr>
+    <td>School</td>
+	<td>134</td>
+    </tr>
+	<tr>
+    <td>Rome</td>
+	<td>134</td>
+    </tr>
+    </table>
+	<table>
+    <tr>
+    <td>Love</td>
+	<td>23</td>
+    </tr>
+	<tr>
+    <td>Heroes</td>
+	<td>265</td>
+    </tr>
+	<tr>
+    <td>Ethnik</td>
+	<td>40</td>
+    </tr>
+	<tr>
+    <td>Book</td>
+	<td>134</td>
+    </tr>
+	<tr>
+    <td>See all tags</td>
+	<td><img src="arrows.png"></td>
+	</tr>
+    </table>
+	</div>
+</div>
 </div>
 </body>
 </html>    
